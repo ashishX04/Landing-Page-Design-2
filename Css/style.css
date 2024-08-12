@@ -1,0 +1,108 @@
+*{
+	margin:0px;
+	padding:0px;	
+}
+
+.logo img{
+	width:100%;
+	padding:20px 5px;
+
+}
+.navbar ul li{
+	display:inline-block;
+}
+.navbar ul{
+	margin:auto;
+}
+.navbar li a{
+	text-decoration:none;
+	color:white;
+	padding:5px;
+	margin:5px;
+}
+.navbar button{
+	align-items:right;
+	width:120px;
+	padding:2px;
+	border:1px solid white;
+	border-radius:40px;
+	background-color:transparent;
+}
+.navbar button a{
+	text-decoration:none;
+	color:white;
+}
+.image1{
+	background-image:url('Image/img1.png');
+}
+.Learn{
+	width:150px;
+	padding:2px;
+	border:1px solid white;
+	border-radius:40px;
+	background-color:transparent;
+}
+.Learn a{
+	text-decoration:none;
+	color:white;
+}
+.form .input{
+	background-color:transparent;
+	color:white;
+	border:none;
+	border-radius:0;
+	border-bottom:1px solid gray;
+}
+
+.form textarea{
+	background-color:transparent !important;
+	color:white;
+	border:none;
+	border-radius:0;
+	border-bottom:1px solid gray;
+}
+.form input::placeholder{
+	color:gray;
+}
+.form textarea::placeholder{
+	color:gray;	
+}
+input[type="submit"]{
+	background-color:transparent;
+	border:1px solid white;
+	border-radius:30px;
+	width:35%;
+	color:white;
+	padding:3px;
+	font-size:15px;
+}
+.icons ul {
+	margin:0px;
+	padding:0px;
+}
+.icons li{
+	list-style:none;
+}
+.icons ul li{
+	display:inline-block;
+	padding:5px;
+	margin:5px; 
+}
+
+.icons .fab{
+	font-size:20px;
+	color:white;
+	transition:font-size 0.3s ease, color 0.6s ease;
+}
+.icons .fa-facebook:hover{
+	color:#3b5998;
+}
+.icons .fa-youtube:hover{
+	color:#ff0000;
+}
+.icons .fa-linkedin:hover{
+	color:#0762c8;
+}
+.icons .fa-twitter:hover{
+	color:#1da1f2;
+}
